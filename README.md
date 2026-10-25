@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-Steganography Forensics Suite
+
+OSteg is a professional steganography suite for hiding and recovering data across images, audio, documents and text. It supports LSB image embedding, WAV audio hiding, PDF metadata, EXIF, zero-width and whitespace techniques, DCT-JPEG, and optional encryption of the hidden payload. It runs as an interactive menu-driven tool for educational and authorized use.
 
 ---
 
 ## ✨ Features
 
-- Defensive steganalysis: detect/extract LSB image, WAV, PDF, EXIF, zero-width and whitespace stego (authorized use)
+
+- LSB steganography for images and hidden data in WAV audio
+- PDF metadata and EXIF-based concealment
+- Zero-width-character and whitespace text steganography
+- DCT-JPEG embedding for lossy image formats
+- Combined hide-and-encrypt workflow to protect the embedded payload
+- Interactive menu with optional readline tab-completion; uses PIL/piexif when available
 
 ---
 
@@ -37,8 +44,10 @@ Steganography Forensics Suite
 
 ## 🚀 Usage
 
+
 ```bash
 ./OSteg
+./OSteg --help
 ```
 
 ---
